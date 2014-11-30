@@ -1,0 +1,51 @@
+
+<h1>Emra shqip</h1>
+
+
+<%= form_for @filterrific do |f| %>
+
+<%= f.select :with_gender,
+                     Gender.all.collect {|g| [ g.name, g.id ] },
+                     { :include_blank => '' },
+                     { :class => 'form-control' } %>
+
+<%= f.select :with_meaning,
+                     NameType.all.collect {|g| [ g.name, g.id ] },
+                     { :include_blank => '' },
+                     { :class => 'form-control' } %>
+
+<%= f.select :with_length,
+                     NameLength.all.collect {|g| [ g.name, g.id ] },
+                     { :include_blank => '' },
+                     { :class => 'form-control' } %>                                          
+
+<%= f.text_field(
+      :search_query,
+      class: 'filterrific-periodically-observed'
+    ) %>
+    					 
+<%= f.hidden_field :with_letter, :value=>'A', :id=>'hidden_letter' %>
+
+<br /> <br />
+
+
+<% @filterrific.select_options[:with_letter].each do |l| %>
+  	<%= link_to l,'', :class=>'letter' %> |  	
+<% end %>
+
+<br /> <br />
+
+<div>
+    <%= link_to(
+      'Reset filters',
+      reset_filterrific_names_path,
+    ) %>
+  </div>
+
+<%= render_filterrific_spinner %>					 
+<% end %>
+ 
+<%= render(
+  partial: 'names/list',
+  locals: { names: @names }
+) %>

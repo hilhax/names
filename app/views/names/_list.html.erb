@@ -1,0 +1,26 @@
+<div id="filterrific_results">
+ <div>
+    <%= page_entries_info names %>
+  </div>
+<table>
+ <tr>
+ <th>Emri</th>
+ <th>Gjinia</th>
+ <th>Domethenia</th>
+ <th>Popullariteti</th>
+ </tr>
+ 
+  <% names.each do |n| %>
+  <tr>
+    <td><%= n.name %></td>
+    <td><%= n.name_gender.name %></td> 
+	<td><%= n.meaning %></td> 
+	<td>5</td> 
+  </tr>
+  <% end %>
+  
+</table>
+<%= will_paginate names %>
+</div>
+
+
