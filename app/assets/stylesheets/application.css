@@ -10,7 +10,63 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require bootstrap
  *= require_tree .
  *= require_self
  */
 
+.span1 {
+	width: 100px;
+}
+
+.span2 {
+	width: 180px;
+}
+
+.span3 {
+	width: 130px;
+}
+
+.span4 {
+	width: 140px;
+}
+
+.span5 {
+	width: 100px;
+}
+
+[class*="span"] {
+	float: left;
+	min-height: 1px;
+	margin-left: 20px;
+}
+.filter_field
+{
+	display: inline-block;
+	padding: 0 3px;
+}
+.filter_btn
+{
+	display: inline-block;
+	margin-top:25px;
+	margin-left: 96px;
+}
+#begins_with {
+	margin-bottom: 10px;
+}
+#letters {
+	margin-top:20px;
+	margin-left:10px;
+}
+
+label {
+	font-weight: normal;
+}
+
+#filterrific_results{
+	margin-bottom:40px;
+}
+
+.table {
+	margin-bottom:0;
+}

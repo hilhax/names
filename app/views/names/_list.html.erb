@@ -1,26 +1,37 @@
+
 <div id="filterrific_results">
- <div>
-    <%= page_entries_info names %>
+
+ <div class="well well-small">
+      
+    <div class="filter_field">
+      <%= page_entries_info names %>
+    </div>
+    <div class="filter_field">
+      <%= render_filterrific_spinner %>
+    </div>
   </div>
-<table>
- <tr>
- <th>Emri</th>
- <th>Gjinia</th>
- <th>Domethenia</th>
- <th>Popullariteti</th>
- </tr>
+
+
+
+  <table class="table table-striped tabbody">
+    <tr>
+      <th>Emri</th>
+      <th>Gjinia</th>
+      <th>Kuptimi</th>
+      </tr>
  
-  <% names.each do |n| %>
-  <tr>
-    <td><%= n.name %></td>
-    <td><%= n.name_gender.name %></td> 
-	<td><%= n.meaning %></td> 
-	<td>5</td> 
-  </tr>
+      <% names.each do |n| %>
+      <tr>
+         <td><%= n.name %></td>
+         <td><%= n.name_gender.name %></td> 
+	       <td><%= n.meaning %></td> 
+      </tr>
   <% end %>
-  
-</table>
-<%= will_paginate names %>
+  </table>
+
+  <div>
+    <%= paginate names %>
+  </div>
 </div>
 
 

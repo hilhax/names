@@ -1,5 +1,6 @@
 class Name < ActiveRecord::Base
 	self.table_name = "app.names"
+    paginates_per 10
 
 	belongs_to :name_gender, class_name: "Gender", foreign_key: "gender"
 	
@@ -12,7 +13,7 @@ class Name < ActiveRecord::Base
 		where(:name_type => [*meanings])
 	}
 
-	scope :with_letter, lambda { |letter|		
+	scope :with_letter, lambda { |letter|	
 		where("name like '#{letter}%'")
 	}
 
@@ -41,7 +42,7 @@ class Name < ActiveRecord::Base
 	}
 
 	filterrific(
-    default_settings: {:with_gender=>1, :with_letter=>'A'},
+    default_settings: {},
     filter_names: [
       :sorted_by,
       :with_gender,

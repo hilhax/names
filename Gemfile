@@ -24,9 +24,12 @@ gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 gem 'rails_12factor'
 
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
 group :doc do
   gem 'sdoc', require: false
 end
 gem 'filterrific'
-gem 'will_paginate', '~> 3.0.6'
+gem 'kaminari', '~> 0.16.1'
+gem 'kaminari-bootstrap', '~> 3.0.1'
 gem 'jquery-turbolinks'

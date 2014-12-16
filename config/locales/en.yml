@@ -20,4 +20,19 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  views:
+    pagination:
+      first: "&laquo; Fillim"
+      last: "Fund &raquo;"
+      previous: "&lsaquo; E mëparshme"
+      next: "E ardhshme &rsaquo;"
+      truncate: "&hellip;"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "Nuk u gjeten emra qe i plotesojne kushtet e parashtruara"
+          one: "Duke shfaqur <b>1</b> emer"
+          other: "Duke shfaqur <b>%{count}</b> emra"
+      more_pages:
+        display_entries: "Duke shfaqur <b>%{first}&nbsp;-&nbsp;%{last}</b> emra nga gjithsejt <b>%{total}</b>"
