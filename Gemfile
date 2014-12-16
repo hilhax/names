@@ -17,12 +17,12 @@ gem 'jbuilder', '~> 1.0.1'
 
 gem 'pg'
 
-group :production do
-  #gem 'unicorn' # make sure you follow installation instructions for this gem
-  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
-  gem 'rails_12factor'
-end
+
+#gem 'unicorn' # make sure you follow installation instructions for this gem
+gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+gem 'rails_12factor'
+
 
 group :doc do
   gem 'sdoc', require: false

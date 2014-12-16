@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+  root 'home#index'
+	
   resources :names do
     get :reset_filterrific, on: :collection
   end
