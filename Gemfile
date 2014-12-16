@@ -42,3 +42,6 @@ gem 'pg'
 gem 'filterrific'
 gem 'will_paginate', '~> 3.0.6'
 gem 'jquery-turbolinks'
+
+#heroku gems
+gem 'rails_12factor', group: :production
