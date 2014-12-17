@@ -12,7 +12,7 @@ class NamesController < ApplicationController
       with_gender: Gender.all,
       with_meaning: NameType.all,
       with_length: NameLength.all,
-      with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh']
+      with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh','Gjitha germat']
     }
 	
     #if(!params[:with_letter].nil?)

@@ -1,10 +1,12 @@
 
   <div class="page-content container">
-  <div class='page-header' style='margin-bottom: 20px;'>
-    <h1>Emra shqip</h1>
+  <div style='margin-bottom: 20px;'>
   </div>
-  
-  <div class='well'>
+  <div class="col-md-3">LOGO
+    <!-- <h1>emra.info</h1> gjithe emrat shqipetare ne nje vend dhe ne cdo kohe--> 
+  </div>
+  <div class="col-md-9">
+  <div class='well well-lg'>
 
     <%= form_for @filterrific,:html => { :class => "form-inline"} do |f| %>
     
@@ -30,15 +32,15 @@
                      { :include_blank => '' },
                      { :class => 'form-control' } %>                                          
       </div>
-      <div class="span4 filter_field">
+      <!-- <div class="span4 filter_field">
         <%= f.label :with_length, 'Kërkim me tekst:' %>
         <%= f.text_field(
                     :search_query,
                     class: 'filterrific-periodically-observed form-control'
                     ) %>
-      </div>   
+      </div>    -->
       <div class="span5 filter_btn">
-        <%= link_to reset_filterrific_names_path, class: "btn btn-primary", title: "Rivendos" do %>
+        <%= link_to reset_filterrific_names_path, class: "btn btn-primary", title: "Kthe gjendjen fillestare" do %>
           <i class="glyphicon glyphicon-repeat"></i>
         <% end %>
 
@@ -48,10 +50,10 @@
 </div>
 <div id="letters">
   <div id="begins_with">
-    <span>Fillon me germen: </span>
+    <span>Fillon me germën: </span>
   </div>
 <% @filterrific.select_options[:with_letter].each do |l| %>
-  	<%= link_to l,'', :class=>'btn-primary btn-xs letter' %> |  	
+  	<%= link_to l,'', :class=>'btn-primary btn-sm letter' %> 	
     <% if l.to_s=='N' %>
         <br/><br/>
     <% end %>
@@ -61,18 +63,59 @@
  
 </div>
 
+</div>
 
 
 <% end %>
 
  
 
+<div class="col-md-3">
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Gjithsejt emra shqiptarë:</h3>
+      </div>
+      <div class="panel-body">
+        3.140
+      </div>
+  </div>
 
 
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Gjithsejt emra për djem:</h3>
+      </div>
+      <div class="panel-body">
+        1.423
+      </div>
+  </div>
+
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Gjithsejt emra për vajza:</h3>
+      </div>
+      <div class="panel-body">
+        1.717
+      </div>
+  </div>
+
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Gjithsejt emra mysliman:</h3>
+      </div>
+      <div class="panel-body">
+        430
+      </div>
+  </div>
+
+
+</div>
+<div class="col-md-9">
 
  
 <%= render(
   partial: 'names/list',
   locals: { names: @names }
 ) %>
+</div>
 </div>

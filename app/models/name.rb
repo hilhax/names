@@ -2,6 +2,8 @@ class Name < ActiveRecord::Base
 	self.table_name = "app.names"
     paginates_per 10
 
+	default_scope { order('name asc') }
+
 	belongs_to :name_gender, class_name: "Gender", foreign_key: "gender"
 	
 	scope :with_gender, lambda { |genders|
@@ -13,8 +15,10 @@ class Name < ActiveRecord::Base
 		where(:name_type => [*meanings])
 	}
 
-	scope :with_letter, lambda { |letter|	
-		where("name like '#{letter}%'")
+	scope :with_letter, lambda { |letter|
+	    if(letter.length<=2)	
+			where("name like '#{letter}%'")
+		end			
 	}
 
 	scope :with_length, lambda { |lengths|

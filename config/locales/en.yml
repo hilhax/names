@@ -31,8 +31,8 @@ en:
     page_entries_info:
       one_page:
         display_entries:
-          zero: "Nuk u gjeten emra qe i plotesojne kushtet e parashtruara"
-          one: "Duke shfaqur <b>1</b> emer"
-          other: "Duke shfaqur <b>%{count}</b> emra"
+          zero: "Nuk u gjetën emra që i plotësojne kushtet e parashtruara."
+          one: "Momentalisht shfaqet <b>1</b> emër që i plotëson kushtet e parashtruara."
+          other: "Momentalisht shfaqen <b>%{count}</b> emra që i plotësojnë kushtet e parashtruara."
       more_pages:
-        display_entries: "Duke shfaqur <b>%{first}&nbsp;-&nbsp;%{last}</b> emra nga gjithsejt <b>%{total}</b>"
+        display_entries: "Momentalisht shfaqen <b>%{first}&nbsp;-&nbsp;%{last}</b> emra nga gjithsejt <b>%{total}</b> që i plotësojnë kushtet e parashtruara."
