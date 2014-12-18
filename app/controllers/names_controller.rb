@@ -14,13 +14,10 @@ class NamesController < ApplicationController
       with_length: NameLength.all,
       with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh','Gjitha germat']
     }
-	
-    #if(!params[:with_letter].nil?)
-    #	@names = Name.filterrific_find(@filterrific).where("name like '#{params[:with_letter]}%'").page(params[:page])
-    #else
-    #	@names = Name.filterrific_find(@filterrific).where("name like 'A%'").page(params[:page])
-    #end
-    @names = Name.filterrific_find(@filterrific).page(params[:page])
+    
+    #@names = Name.filterrific_find(@filterrific).page(params[:page])
+    @names = Name.filterrific_find(@filterrific)
+    @number_of_results = @names.count
     session[:filterrific_names] = @filterrific.to_hash
 
     # Respond to html for initial page load and to js for AJAX filter updates.

@@ -1,6 +1,6 @@
 class Name < ActiveRecord::Base
 	self.table_name = "app.names"
-    paginates_per 10
+    #paginates_per 10
 
 	default_scope { order('name asc') }
 
@@ -46,7 +46,7 @@ class Name < ActiveRecord::Base
 	}
 
 	filterrific(
-    default_settings: {},
+    default_settings: { :with_gender=>1, :with_letter=>'A'},
     filter_names: [
       :sorted_by,
       :with_gender,

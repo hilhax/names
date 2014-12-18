@@ -1,22 +1,9 @@
-
-
-
-
 <div id="filterrific_results">
-
- <div class="well well-sm kaminari_entries_info">
-    <div class="filter_field kaminari_entries_info_text">
-      <%= page_entries_info names %>
-    </div>
-    <div class="filter_field">
-      <%= render_filterrific_spinner %>
-    </div>
+  <div class="results_info">
+    <span id="results_number"><%= @number_of_results.to_s %></span> emra plotësojnë kushtet e parashtruara për kërkim:
   </div>
-
-
-
   <table class="table table-striped tabbody">
-      <tr>
+      <tr class="warning">
       <th>Emri</th>
       <th>Gjinia</th>
       <th>Kuptimi</th>
@@ -24,15 +11,12 @@
  
       <% names.each do |n| %>
       <tr>
-         <td><%= n.name %></td>
+         <td><strong><%= n.name %></strong></td>
          <td><%= n.name_gender.name %></td> 
 	       <td><%= n.meaning %></td> 
       </tr>
   <% end %>
   </table>
-
-  <div>
-    <%= paginate names %>
-  </div>
+  <a href="#" title="Shko në fillim" class="scrollToTop" />
 </div>
 

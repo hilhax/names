@@ -34,8 +34,8 @@ create table const.gender
 	name varchar(10)
 );
 
-insert into const.gender values (1,'Djalë');
-insert into const.gender values (2,'Vajzë');
+insert into const.gender values (1,'Mashkull');
+insert into const.gender values (2,'Femër');
 
 create table const.name_lengh
 (

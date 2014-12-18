@@ -16,15 +16,15 @@
  */
 
 .span1 {
-	width: 100px;
+	width: 121px;
 }
 
 .span2 {
-	width: 180px;
+	width: 162px;
 }
 
 .span3 {
-	width: 60px;
+	width: 50px;
 }
 
 .span4 {
@@ -71,6 +71,26 @@ label {
 	margin-bottom:0;
 }
 .subheader {
+	font-size: 12px;
+	font-style: italic;
+}
+.results_info {
 	font-size: 11px;
-	font-style: italic bold;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+#results_number {
+	font-weight: bold;
+}
+.scrollToTop{
+	width:64px; 
+	height:64px;
+	position:fixed;
+	top:680px;
+	right:40px;
+	display:none;
+	background: url('up.png') no-repeat 0px 0px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
 }
