@@ -98,7 +98,8 @@ create table app.names
 	name_length int null,
 	regularity int null,
 	meaning varchar(400) null,
-	rating int
+	rating int,
+	date_retr date int
 );
 
 --create proc app.udsp_random_name(@nr varchar(2),@gender int=null) as
@@ -630,7 +631,7 @@ insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values (
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Jontar','emër vendi','1','2','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Jorik','emër i vjetër ilir','1','2','1','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Joshan','fjalë e shqipes','1','2','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Kacanik','emër vendi','1','2','2','2');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Kaçanik','emër vendi','1','2','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Kalterim','fjalë e shqipes','1','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Kalterosh','fjalë e shqipes','1','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Kandal','emër i vjetër ilir','1','2','1','2');

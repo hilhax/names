@@ -1,11 +1,5 @@
 
-  <div class="page-content container">
-  <div style='margin-bottom: 20px;'>
-  </div>
-  <div class="col-md-3">
-      <h1>EMRA.info</h1>
-      <p class="subheader">databaza e emrave shqipëtarë</p>
-  </div>
+
   <div class="col-md-9">
   <div class='well well-lg'>
 
@@ -49,59 +43,73 @@
 
 <%= f.hidden_field :with_letter, :value=>'A', :id=>'hidden_letter' %>
 </div>
-<div id="letters">
-  <div id="begins_with">
-    <span>Fillon me germën: </span>
+  <div id="letters">
+    <div id="begins_with">
+      <span>Fillon me germën: </span>
+    </div>
+  <% @filterrific.select_options[:with_letter].each do |l| %>
+    	<%= link_to l,'', :class=>'btn-primary btn-sm letter' %> 	
+      <% if l.to_s=='N' %>
+          <br/><br/>
+      <% end %>
+  <% end %>
   </div>
-<% @filterrific.select_options[:with_letter].each do |l| %>
-  	<%= link_to l,'', :class=>'btn-primary btn-sm letter' %> 	
-    <% if l.to_s=='N' %>
-        <br/><br/>
-    <% end %>
-<% end %>
 </div>
-
- 
 </div>
-
-</div>
-
 
 <% end %>
 
- 
+  <div class="col-md-3">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Emrat e ditës</h3>
+        </div>
+        <div class="panel-body">
+          <div>
+            <div>
+              <%= Name.random_male.name %>
+            </div>
+            <div>
+              <%= Name.random_male.meaning %>
+            </div>
+          </div>
+          <br/>
+          <div>
+            <div>
+              <%= Name.random_female.name %>
+            </div>
+            <div>
+              <%= Name.random_female.meaning %>
+            </div>
+          </div>
+        </div>
+    </div>
 
-<div class="col-md-3">
-  <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Emri i ditës:</h3>
-      </div>
-      <div class="panel-body">
-        Arlind
-      </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Statistikë</h3>
+        </div>
+        <div class="panel-body stats">
+          <div class="stat_item">Gjithsejt emra shqiptarë = <strong><%= Name.total_names.to_s %></strong></div>
+          <div class="stat_item">Emra shqiptarë për djem = <strong><%= Name.total_male_names.to_s %></strong></div>
+          <div class="stat_item">Emra shqiptarë për vajza = <strong><%= Name.total_female_names.to_s %></strong></div>
+          <div class="stat_item">Gjithsejt emra mysliman = <strong><%= Name.total_muslim_names.to_s %></strong></div>
+          <div class="stat_item">Emra mysliman për djem = <strong><%= Name.total_male_muslim_names.to_s %></strong></div>
+          <div class="stat_item">Emra mysliman për vajza = <strong><%= Name.total_female_muslim_names.to_s %></strong></div>
+        </div>
+    </div>
   </div>
 
+  <div class="col-md-9">
 
-  <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">Statistikë:</h3>
-      </div>
-      <div class="panel-body">
-        <div>Gjithsejt emra shqiptarë = 3.140</div>
-        <div>Emra shqiptarë për djem = 1.423</div>
-        <div>Emra shqiptarë për vajza = 1.717</div>
-        <div>Gjithsejt emra fetar = 430</div>
-        <div>Emra fetar për djem = 200</div>
-        <div>Emra fetar për vajza = 230</div>
-      </div>
+    <%= render(
+      partial: 'names/list',
+      locals: { names: @names }
+    ) %>
+
   </div>
-</div>
-<div class="col-md-9">
 
- 
-<%= render(
-  partial: 'names/list',
-  locals: { names: @names }
-) %>
 </div>
-</div>
+
+
+

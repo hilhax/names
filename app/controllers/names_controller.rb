@@ -1,12 +1,10 @@
 class NamesController < ApplicationController
-	
+
 	def index
-  
     @filterrific = Filterrific.new(
       Name,
       params[:filterrific] || session[:filterrific_names]
     )
-
   
     @filterrific.select_options = {    
       with_gender: Gender.all,
@@ -16,7 +14,7 @@ class NamesController < ApplicationController
     }
     
     #@names = Name.filterrific_find(@filterrific).page(params[:page])
-    @names = Name.filterrific_find(@filterrific)
+    @names = Name.filterrific_find(@filterrific).order("name asc")
     @number_of_results = @names.count
     session[:filterrific_names] = @filterrific.to_hash
 
@@ -25,11 +23,9 @@ class NamesController < ApplicationController
       format.html
       format.js
     end
-
-
-  rescue ActiveRecord::RecordNotFound
-    # There is an issue with the persisted param_set. Reset it.
-    redirect_to(action: :reset_filterrific) and return
+  
+    rescue ActiveRecord::RecordNotFound
+      redirect_to(action: :reset_filterrific) and return
   end
 
   def reset_filterrific
@@ -39,7 +35,4 @@ class NamesController < ApplicationController
     redirect_to action: :index
   end
 
-  
-  
-	
 end
