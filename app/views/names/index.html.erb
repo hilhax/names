@@ -10,21 +10,21 @@
         <%= f.label :with_gender, 'Gjinia:' %>
         <%= f.select :with_gender,
                      Gender.all.collect {|g| [ g.name, g.id ] },
-                     { :include_blank => '' },
+                     { :include_blank => 'Gjitha' },
                      { :class => 'form-control' } %>
       </div>
       <div class="span2 filter_field">
         <%= f.label :with_meaning, 'Kuptimi:' %>
         <%= f.select :with_meaning,
                      NameType.all.collect {|g| [ g.name, g.id ] },
-                     { :include_blank => '' },
+                     { :include_blank => 'Gjitha' },
                      { :class => 'form-control' } %>
       </div>
       <div class="span3 filter_field">
         <%= f.label :with_length, 'Gjatësia:' %>
         <%= f.select :with_length,
                      NameLength.all.collect {|g| [ g.name, g.id ] },
-                     { :include_blank => '' },
+                     { :include_blank => 'Gjitha' },
                      { :class => 'form-control' } %>                                          
       </div>
       <!-- <div class="span4 filter_field">
