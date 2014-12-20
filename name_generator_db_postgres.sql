@@ -98,8 +98,8 @@ create table app.names
 	name_length int null,
 	regularity int null,
 	meaning varchar(400) null,
-	rating int,
-	date_retr date int
+	rating int null,
+	date_retr date null
 );
 
 --create proc app.udsp_random_name(@nr varchar(2),@gender int=null) as

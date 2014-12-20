@@ -55,12 +55,14 @@ class Name < ActiveRecord::Base
 	  )
 	}
 
+	
+
 	def self.get_random_record_of_the_day(gender)
 		n = Name.where('gender=? and date_retr=now()::date',gender.to_s)
 		if(n.count>0)
 			n.first
 		else
-			n = Name.where('gender=? and name_type<>5 and (date_retr is null OR date_retr<now():date-30)',gender.to_s).order('RANDOM()').first
+			n = Name.where('gender=? and name_type<>5 and (date_retr is null OR date_retr<now()::date-30)',gender.to_s).order('RANDOM()').first
 			n.date_retr = DateTime.now
 			n.save
 			n

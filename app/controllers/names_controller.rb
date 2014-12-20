@@ -33,6 +33,6 @@ class NamesController < ApplicationController
     session[:filterrific_names] = nil
     # Redirect back to the index action for default filter settings.
     redirect_to action: :index
-  end
+  end 
 
 end
