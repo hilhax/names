@@ -8,7 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'    
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 1.0.1'
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
