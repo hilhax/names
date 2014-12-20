@@ -90,7 +90,7 @@ class Name < ActiveRecord::Base
 	end
 
 	def self.total_muslim_names
-		Name.where('gender=1 and name_type=5').count
+		Name.where('name_type=5').count
 	end
 
 	def self.total_male_muslim_names
