@@ -36,7 +36,6 @@ class Name < ActiveRecord::Base
 	}
 
 	scope :sorted_by, lambda { |sort_option|
-	
 		order("names.name desc")
 	}
 
