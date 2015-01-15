@@ -1,6 +1,9 @@
 class NamesController < ApplicationController
 
 	def index
+    
+    session[:filterrific_names] = nil
+
     @filterrific = Filterrific.new(
       Name,
       params[:filterrific] || session[:filterrific_names]
@@ -28,7 +31,7 @@ class NamesController < ApplicationController
       redirect_to(action: :reset_filterrific) and return
   end
 
-  def reset_filterrific
+  def reset
     # Clear session persistence
     session[:filterrific_names] = nil
     # Redirect back to the index action for default filter settings.
