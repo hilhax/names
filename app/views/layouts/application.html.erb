@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EMRA.info | databaza e emrave shqipëtarë</title>
+  <title>EMRA.info | emra shqip,  emra shqiptare, emra per djem, emra per vajza, emra shqip per djem, emra shqip per vajza, emra musliman</title>
   <meta name="description" content="databaza e emrave shqipëtarë" />
-  <meta name="keywords" content="emra, emra shqip, emra shqip per djem, emra shqip per vajza, emra musliman" />
+  <meta name="keywords" content="emra, emra shqip,  emra shqiptare, emra per djem, emra per vajza, emra shqip per djem, emra shqip per vajza, emra musliman" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <div class="page-content container">
 <div style='margin-bottom: 20px;'></div>
-<div class="col-md-3">
-  <h1>EMRA.info</h1>
-  <p class="subheader">databaza e emrave shqipëtarë</p>
+<div class="col-md-3 logo">
+    <%= link_to reset_filterrific_names_path do %>
+  		<img src='<%= image_path('emra_logo.png') %>'></a>
+  	<% end %>
 </div>
+
 <%= yield %>
 
 <div class="footer">

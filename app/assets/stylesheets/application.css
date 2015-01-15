@@ -15,6 +15,9 @@
  *= require_self
  */
 
+.logo {
+	margin-top: 10px;
+}
 .span1 {
 	width: 121px;
 }
@@ -86,7 +89,7 @@ label {
 	width:64px; 
 	height:64px;
 	position:fixed;
-	top:680px;
+	top:570px;
 	right:40px;
 	display:none;
 	background: url('up.png') no-repeat 0px 0px;
@@ -113,4 +116,24 @@ label {
 	font-size:12px;
 	text-align: center;
 	margin-top:40px;
+}
+
+.random {
+	text-align: center;
+	margin-top:16px;
+	
+}
+.random_f {
+	text-align: center;
+	margin-top:26px;
+	margin-bottom:16px;
+	
+}
+.random_name {
+	font-size: 38px;
+	font-family: 'Great Vibes', cursive;
+}
+.random_meaning {
+	font-size:11px;
+	font-style: italic;
 }

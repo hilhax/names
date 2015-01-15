@@ -6,11 +6,15 @@ jQuery(document).ready(function($) {
     Filterrific.submitFilterForm
   );
 
+
+
   $('.letter').click(function (e) {
 	  	e.preventDefault(); // Prevent link from following its href
 	  	console.log($('#hidden_letter').val());
   		$('#hidden_letter').val(this.innerHTML);  		  		
       $('#filterrific_search_query').val('');
+      $('.letter').removeClass( "btn-warning" ).addClass( "btn-primary" )
+      $(this).removeClass( "btn-primary" ).addClass( "btn-warning" );
 	});
 
   //Check to see if the window is top if not then display button

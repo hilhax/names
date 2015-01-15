@@ -5,6 +5,7 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -6329,3 +6330,143 @@ button.close {
   }
 }
 
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
+
+
+.logo {
+	margin-top: 10px;
+}
+.span1 {
+	width: 121px;
+}
+
+.span2 {
+	width: 162px;
+}
+
+.span3 {
+	width: 50px;
+}
+
+.span4 {
+	width: 140px;
+}
+
+.span5 {
+	width: 100px;
+}
+
+[class*="span"] {
+	float: left;
+	min-height: 1px;
+	margin-left: 20px;
+}
+.filter_field
+{
+	display: inline-block;
+	padding: 0 3px;
+}
+.filter_btn
+{
+	display: inline-block;
+	margin-top:25px;
+	margin-left: 96px;
+}
+#begins_with {
+	margin-bottom: 10px;
+}
+#letters {
+	margin-top:20px;
+	margin-left:10px;
+}
+
+label {
+	font-weight: normal;
+}
+
+#filterrific_results{
+	margin-bottom:40px;
+}
+
+.table {
+	margin-bottom:0;
+}
+.subheader {
+	font-size: 12px;
+	font-style: italic;
+}
+.results_info {
+	font-size: 11px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+#results_number {
+	font-weight: bold;
+}
+.scrollToTop{
+	width:64px; 
+	height:64px;
+	position:fixed;
+	top:570px;
+	right:40px;
+	display:none;
+	background: url('up.png') no-repeat 0px 0px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+.panel-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:12px;
+}
+.stats {
+	font-size: 12px;
+}
+
+.stat_item {
+	padding: 5px;
+}
+
+.footer {
+	width: 100%;
+	height: 48px;
+	font-size:12px;
+	text-align: center;
+	margin-top:40px;
+}
+
+.random {
+	text-align: center;
+	margin-top:16px;
+	
+}
+.random_f {
+	text-align: center;
+	margin-top:26px;
+	margin-bottom:16px;
+	
+}
+.random_name {
+	font-size: 38px;
+	font-family: 'Great Vibes', cursive;
+}
+.random_meaning {
+	font-size:11px;
+	font-style: italic;
+}

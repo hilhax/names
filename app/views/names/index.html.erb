@@ -10,21 +10,21 @@
         <%= f.label :with_gender, 'Gjinia:' %>
         <%= f.select :with_gender,
                      Gender.all.collect {|g| [ g.name, g.id ] },
-                     { :include_blank => '' },
+                     { :include_blank => '-Gjitha-' },
                      { :class => 'form-control' } %>
       </div>
       <div class="span2 filter_field">
         <%= f.label :with_meaning, 'Kuptimi:' %>
         <%= f.select :with_meaning,
                      NameType.all.collect {|g| [ g.name, g.id ] },
-                     { :include_blank => '' },
+                     { :include_blank => '-Gjithë-' },
                      { :class => 'form-control' } %>
       </div>
       <div class="span3 filter_field">
         <%= f.label :with_length, 'Gjatësia:' %>
         <%= f.select :with_length,
                      NameLength.all.collect {|g| [ g.name, g.id ] },
-                     { :include_blank => '' },
+                     { :include_blank => '-Gjitha-' },
                      { :class => 'form-control' } %>                                          
       </div>
       <!-- <div class="span4 filter_field">
@@ -48,7 +48,11 @@
       <span>Fillon me germën: </span>
     </div>
   <% @filterrific.select_options[:with_letter].each do |l| %>
-    	<%= link_to l,'', :class=>'btn-primary btn-sm letter' %> 	
+      <% if l.to_s=='A' %>
+        <%= link_to l,'', :class=>'btn-warning btn-sm letter' %>  
+      <% else %>
+        <%= link_to l,'', :class=>'btn-primary btn-sm letter' %>  
+      <% end %>    	
       <% if l.to_s=='N' %>
           <br/><br/>
       <% end %>
@@ -60,31 +64,7 @@
 <% end %>
 
   <div class="col-md-3">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Emrat e ditës</h3>
-        </div>
-        <div class="panel-body">
-          <div>
-            <div>
-              <%= Name.random_male.name %>
-            </div>
-            <div>
-              <%= Name.random_male.meaning %>
-            </div>
-          </div>
-          <br/>
-          <div>
-            <div>
-              <%= Name.random_female.name %>
-            </div>
-            <div>
-              <%= Name.random_female.meaning %>
-            </div>
-          </div>
-        </div>
-    </div>
-
+    
     <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Statistikë</h3>
@@ -98,6 +78,31 @@
           <div class="stat_item">Emra mysliman për vajza = <strong><%= Name.total_female_muslim_names.to_s %></strong></div>
         </div>
     </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Emrat e ditës</h3>
+        </div>
+        <div class="panel-body">
+          <div class="random">
+            <div>
+              <span class="random_name"><%= Name.random_male.name %></span>
+            </div>
+            <div>
+              <span class="random_meaning"><%= Name.random_male.meaning %></span>
+            </div>
+          </div>          
+          <div class="random_f">
+            <div>
+              <span class="random_name"><%= Name.random_female.name %></span>
+            </div>
+            <div>
+              <span class="random_meaning"><%= Name.random_female.meaning %></span>
+            </div>
+          </div>
+        </div>
+    </div>
+
   </div>
 
   <div class="col-md-9">

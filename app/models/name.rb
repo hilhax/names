@@ -54,12 +54,14 @@ class Name < ActiveRecord::Base
 	  )
 	}
 
+	
+
 	def self.get_random_record_of_the_day(gender)
 		n = Name.where('gender=? and date_retr=now()::date',gender.to_s)
 		if(n.count>0)
 			n.first
 		else
-			n = Name.where('gender=? and name_type<>5 and (date_retr is null OR date_retr<now():date-30)',gender.to_s).order('RANDOM()').first
+			n = Name.where('gender=? and name_type<>5 and (date_retr is null OR date_retr<now()::date-30)',gender.to_s).order('RANDOM()').first
 			n.date_retr = DateTime.now
 			n.save
 			n
@@ -87,7 +89,7 @@ class Name < ActiveRecord::Base
 	end
 
 	def self.total_muslim_names
-		Name.where('gender=1 and name_type=5').count
+		Name.where('name_type=5').count
 	end
 
 	def self.total_male_muslim_names
