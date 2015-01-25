@@ -28,7 +28,7 @@ class NamesController < ApplicationController
     end
   
     rescue ActiveRecord::RecordNotFound
-      redirect_to(action: :reset_filterrific) and return
+      redirect_to(action: :reset) and return
   end
 
   def reset

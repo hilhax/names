@@ -65,19 +65,7 @@
 
   <div class="col-md-3">
     
-    <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Statistikë</h3>
-        </div>
-        <div class="panel-body stats">
-          <div class="stat_item">Gjithsejt emra shqiptarë = <strong><%= Name.total_names.to_s %></strong></div>
-          <div class="stat_item">Emra shqiptarë për djem = <strong><%= Name.total_male_names.to_s %></strong></div>
-          <div class="stat_item">Emra shqiptarë për vajza = <strong><%= Name.total_female_names.to_s %></strong></div>
-          <div class="stat_item">Gjithsejt emra mysliman = <strong><%= Name.total_muslim_names.to_s %></strong></div>
-          <div class="stat_item">Emra mysliman për djem = <strong><%= Name.total_male_muslim_names.to_s %></strong></div>
-          <div class="stat_item">Emra mysliman për vajza = <strong><%= Name.total_female_muslim_names.to_s %></strong></div>
-        </div>
-    </div>
+   
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -100,6 +88,32 @@
               <span class="random_meaning"><%= Name.random_female.meaning %></span>
             </div>
           </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Na ndiqni në Facebook</h3>
+        </div>
+        <div class="panel-body">
+           <div class="fb-like-box" data-href="https://www.facebook.com/pages/emrainfo/267659436767336" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+
+        </div>
+    </div>
+
+
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Statistikë</h3>
+        </div>
+        <div class="panel-body stats">
+          <div class="stat_item">Gjithsejt emra shqiptarë = <strong><%= Name.total_names.to_s %></strong></div>
+          <div class="stat_item">Emra shqiptarë për djem = <strong><%= Name.total_male_names.to_s %></strong></div>
+          <div class="stat_item">Emra shqiptarë për vajza = <strong><%= Name.total_female_names.to_s %></strong></div>
+          <div class="stat_item">Gjithsejt emra mysliman = <strong><%= Name.total_muslim_names.to_s %></strong></div>
+          <div class="stat_item">Emra mysliman për djem = <strong><%= Name.total_male_muslim_names.to_s %></strong></div>
+          <div class="stat_item">Emra mysliman për vajza = <strong><%= Name.total_female_muslim_names.to_s %></strong></div>
         </div>
     </div>
 
