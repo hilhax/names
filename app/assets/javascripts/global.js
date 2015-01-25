@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
       $(this).removeClass( "btn-primary" ).addClass( "btn-warning" );
 	});
 
-  console.log($('#hidden_letter').val());
+  //console.log($('#hidden_letter').val());
 
   //Check to see if the window is top if not then display button
   $(window).scroll(function(){

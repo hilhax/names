@@ -9,9 +9,9 @@ Rails.application.routes.draw do
   root 'names#index'
 	
   resources :names do
-    get :reset, on: :collection
+    get :reset, on: :collection    
   end
- 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
