@@ -7,6 +7,7 @@
       <th>Emri</th>
       <th>Gjinia</th>
       <th>Kuptimi</th>
+      <th>Numri i votave</th>
       </tr>
  
       <% names.each do |n| %>
@@ -14,6 +15,7 @@
          <td><strong><%= n.name %></strong></td>
          <td><%= n.name_gender.name %></td> 
 	       <td><%= n.meaning %></td> 
+         <td><%= link_to image_tag("voteup.png",:border => 0), vote_up_names_path(n.id), :remote=>true %> <%= n.rating %> </td> 
       </tr>
   <% end %>
   </table>

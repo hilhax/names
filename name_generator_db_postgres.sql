@@ -5,7 +5,6 @@ Albanian names generator
 
 */
 
-
 DROP TABLE IF EXISTS const.gender;
 DROP TABLE IF EXISTS const.yesno;
 DROP TABLE IF EXISTS const.name_lengh;
@@ -956,7 +955,9 @@ insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values (
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Qendrak','fjalë e shqipes','1','2','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Qendrim','fjalë e shqipes','1','2','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Rapsod','fjalë e shqipes','1','2','2','2');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Redi','emër i vjetër ilir','1','2','1','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Redon','emër i vjetër ilir','1','2','1','2');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Rejdon','emër i vjetër ilir','1','2','1','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Regont','emër i vjetër ilir','1','2','1','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Rilind','fjalë e shqipes','1','2','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Rinim','fjalë e shqipes','1','2','2','2');
@@ -1406,6 +1407,7 @@ insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values (
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Bilida','emër i vjetër ilir','2','2','1','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Bleta','fjalë e shqipes','2','2','1','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Blerta','fjalë e shqipes, emër ngjyre','2','2','1','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Bujare','fjalë e shqipes','2','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Bukurie','fjalë e shqipes','2','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Bukuroshe','fjalë e shqipes','2','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Calë','emër i vjetër','2','2','2','2');
@@ -2495,52 +2497,105 @@ insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values (
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Yllmira','fjalë të shqipes','2','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Yllneshë','fjalë e shqipes','2','2','2','3');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Yllnore','fjalë e shqipes','2','2','2','3');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Yllore','fjalë e shqipes','2','2','2','3');;
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Yllore','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zaimina','emër ilir','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zairika','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zamare','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zambake','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zamira','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zana','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanafilla','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanafina','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanamira','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanesha','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanfina','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanita','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zanushe','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zarista','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zarista','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zbardhime','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zbardhore','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zbukurime','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zbutime','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zemërdlira','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zemërore','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zemërushe','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zeshkane','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zjarrina','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zjarrta','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zoga','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zoglare','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zoglina','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zogëla','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zonate','emër ilir','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zorada','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zulma','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zulmore','emër i vjetër','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zymbyle','fjalë e shqipes','2','2','2','3');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Zëdlira','fjalë e shqipes','2','2','2','3');
+
 
 -- muslim
 
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abid','adhurues','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abisali','luftëtar','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abrar','devotshmëri','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Adil','i drejtë','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Adiim','i rrallë','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Afak','vendi ku takohen Toka dhe Qielli','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Affan','person falës','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Afif','modest','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Afijf','i pastër','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Afraz','i qendrueshëm si mali','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Afzal','më i miri','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ahdan','shoku më i mirë','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ahil','princ','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ahmed','më i admiruari','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ahsan','më i miri','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Aiman','i patrembur','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Aixhaz','bekim','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajan','dhuratë e Zotit','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Akil','inteligjent','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ali','i lartë','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Alman','i mirë','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Almir','princ','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ammar','me iman të fortë','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Amir','sundues','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Amr','emri Sahabi','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Amin','besnik ','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Aniik','elegant','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Anuar','vezullues','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ariib','i shkathtë','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ariz','njeri i respektueshëm','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Asad','luan','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Asim','njeri që largohet nga mëkatet','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ashar','ai që ka urtësi','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ashfak','shok i dhembshëm','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Atib','shumë i devotshëm','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Atif','i dhembshur','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ather','i thjeshtë','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Auf','mysafir ','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Axhir','shpërblim','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Azam','i vendosur','1','1','2','1');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Azfer','udhëheqës','1','1','2','2');
-insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Azim','i vendosur','1','1','2','1');
+
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdullah','adhurues i Zotit (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulatif','adhurues i Zotit (ledhatues) (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulaziz','adhurues i Zotit Fuqiplotë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulbaki','adhurues i Zotit të përhershëm (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulfetah','adhurues i Zotit Triumfues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulgafur','adhurues i Zotit Amnestues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulhamid','adhurues i Zotit Falenderues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulhakim','adhurues i Zotit të Urtë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulhalim','adhurues i Zotit të Butë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulkadir','adhurues i Zotit të Fuqishëm (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulkerim','adhurues i Zotit të Fisnik (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulmexhid','adhurues i Zotit të Famshëm (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulmelik','adhurues i Zotit të Sundues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulmumin','adhurues i Zotit të Besnik (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdulvehab','adhurues i Zotit të Dhurues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdunnasir','adhurues i Zotit të Ndihmues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdurrahim','adhurues i Zotit të Mëshirues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdurrahman','adhurues i Zotit të Mëshirëgjërë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdurrezak','adhurues i Zotit të Furnizues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdusselam','adhurues i Zotit të Paqdashës (ar.)','1','1','2','1');
+
+
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abas','luan i zymtë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abdi','përkushtues, devotshmëri (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abidin','adhurues në shumës (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Abid','adhurues (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Adem','emër i pejgamberit të parë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Adil','i drejtë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Adnan','gjakpastër, fis i hershëm arab (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Advan','i shpejtë, i shkathët (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Afan','i pastër, i pa fajë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Agan','zotëri, i parë, feudal, aga (tur.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Agush','përfaqësues (tur.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ahmed','i falenderuari, më i falenderuari (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Aud','vizituesi, ai që vien kohë pas kohe (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajaz','emër personal (tur.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajdin','i ndritshëm, i qartë (tur.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajet','shenjë, dokument (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajetullah','shenjë, dokument i Zotit (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajni','i njejti, origjinali, natyrali (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ajvaz','shtëpiak, kujdestarë i ndërtesës (tur.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Akif','i qëndrueshëm, satbil, besnik (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Akil','mentarë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ali','i lartë, elegant (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Amar','jetëgjatë, jeton shumë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Amir','urdhërdhënës (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Arif','njohtës i mirë, i kuptueshëm (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Arsllan','luan (tur.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Asad','i famshëm, fatmirë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Asaf','i rreptë, i fortë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Asim','mbrojtës, rojtës (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Ataullah','dhuratë e Zotit (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Atif','i dhëmbshëm, mëshirues, i butë (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Avni','ndëhmës (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Azem','i madh, kolosal (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Azim','i vendosur (ar.)','1','1','2','1');
+insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Aziz','i fuqishëm, krenarë (ar.)','1','1','2','1');
+
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Basim','i buzëqeshur','1','1','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Basil','trim','1','1','2','2');
 insert into app.names(name,meaning,gender,religion,is_ilir,name_length) values ( 'Bekir','guximtar','1','1','2','2');
@@ -3271,6 +3326,12 @@ case when meaning like '%ilir%' then 4
 	 when meaning like '%shqip%' then 1 
 	 when meaning like '%vend%'then 2 
 	 when religion=1 then 5 end;
+
+update app.names set name_length = 
+case when char_length(name)<=4 then 1
+	 when (char_length(name)>4 and char_length(name)<=7) then 2
+	 when char_length(name)>7 then 3 end;
+	 
 
 --select * from app.names;
 

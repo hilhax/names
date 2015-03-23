@@ -39,6 +39,5 @@ jQuery(document).ready(function($) {
   //    $('#hidden_letter').val('');
   //});
 
-
 });
 

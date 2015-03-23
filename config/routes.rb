@@ -9,7 +9,8 @@ Rails.application.routes.draw do
   root 'names#index'
 	
   resources :names do
-    get :reset, on: :collection    
+    get :reset, on: :collection   
+    match 'vote_up/:id' => 'names#vote_up', on: :collection, via: [:get, :post], as: :vote_up
   end
 
   # Example of regular route:

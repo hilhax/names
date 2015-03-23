@@ -38,4 +38,43 @@ class NamesController < ApplicationController
     redirect_to action: :index
   end 
 
+  def vote_up
+    begin
+      if cookies[:votes_number].nil?
+        cookies[:votes_number] = {
+           :value => 1,
+           :expires => 1.week.from_now
+        }
+      else
+        num = cookies[:votes_number].to_i + 1
+        cookies[:votes_number] = {
+           :value => num,
+           :expires => 1.week.from_now
+        }
+      end  
+      if cookies[:votes_number].to_i < 4
+        cookie_key = params[:id].to_s
+        if cookies[cookie_key].nil?
+          n = Name.find_by_id(params[:id])
+          if n.rating.nil?
+            n.rating = 1
+          else
+            n.rating = n.rating + 1
+          end
+          n.save!
+          cookies[cookie_key] = {
+             :value => true,
+             :expires => 1.week.from_now
+          }
+        end
+      #else
+        #flash.no[:alert] = 'Error while sending message!'  
+      end
+    rescue
+      puts "Error #{$!}"
+    ensure   
+      # TODO , fix
+      redirect_to action: :index
+    end 
+  end
 end

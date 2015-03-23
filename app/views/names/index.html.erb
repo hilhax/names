@@ -14,7 +14,7 @@
                      { :class => 'form-control' } %>
       </div>
       <div class="span2 filter_field">
-        <%= f.label :with_meaning, 'Kuptimi:' %>
+        <%= f.label :with_meaning, 'Lloji:' %>
         <%= f.select :with_meaning,
                      NameType.all.collect {|g| [ g.name, g.id ] },
                      { :include_blank => '-Gjithë-' },
