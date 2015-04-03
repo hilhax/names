@@ -4,18 +4,23 @@
   </div>
   <table class="table table-striped tabbody">
       <tr class="warning">
-      <th>Emri</th>
-      <th>Gjinia</th>
-      <th>Kuptimi</th>
-      <th>Numri i votave</th>
+      <th class="table-col-name">Emri</th>
+      <th class="table-col-gender">Gjinia</th>
+      <th class="table-col-meaning">Kuptimi</th>
+      <th class="table-col-votes">Numri i votave</th>
       </tr>
  
       <% names.each do |n| %>
       <tr>
-         <td><strong><%= n.name %></strong></td>
-         <td><%= n.name_gender.name %></td> 
-	       <td><%= n.meaning %></td> 
-         <td><%= link_to image_tag("voteup.png",:border => 0), vote_up_names_path(n.id), :remote=>true %> <%= n.rating %> </td> 
+        <% if n.gender==1 %>
+            <td class="table-col-name male-name"><strong><%= n.name %></strong></td>
+            <td class="table-col-gender"><%= image_tag("male.png",:border => 0, :class => "gender-icon") %> </td> 
+          <% else %>
+            <td class="table-col-name female-name"><strong><%= n.name %></strong></td>
+            <td class="table-col-gender"><%= image_tag("female.png",:border => 0, :class => "gender-icon") %> </td> 
+         <% end %>   
+	       <td class="table-col-meaning"><%= n.meaning %></td> 
+         <td class="table-col-votes"><%= link_to image_tag("voteup.png",:border => 0), vote_up_names_path(n.id), :remote=>true %> <%= n.rating %> </td> 
       </tr>
   <% end %>
   </table>

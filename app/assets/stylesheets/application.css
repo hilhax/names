@@ -137,3 +137,24 @@ label {
 	font-size:11px;
 	font-style: italic;
 }
+.table-col-name {
+	width:50px !important;
+}
+.table-col-gender {
+	width:20px !important;
+}
+.table-col-meaning {
+	width:180px !important;
+}
+.table-col-votes {
+	width:40px !important;
+}
+
+
+.male-name {
+	color: #5181C4;
+}
+
+.female-name {
+	color: #D121C2;
+}
