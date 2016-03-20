@@ -6,7 +6,7 @@ class Name < ActiveRecord::Base
 	belongs_to :name_gender, class_name: "Gender", foreign_key: "gender"
 
 	filterrific(
-	    default_settings: { :with_gender=>1, :with_letter=>'A', :with_meaning=>1},
+	    default_settings: { :with_letter=>'A', :with_meaning=>1},
 	    filter_names: [
 	      :sorted_by,
 	      :with_gender,
