@@ -1,26 +1,28 @@
+
 <div id="filterrific_results">
   <div class="results_info">
     <span id="results_number"><%= @number_of_results.to_s %></span> emra plotësojnë kushtet e parashtruara për kërkim:
   </div>
   <table class="table table-striped tabbody">
       <tr class="warning">
-      <th class="table-col-name">Emri</th>
-      <th class="table-col-gender">Gjinia</th>
-      <th class="table-col-meaning">Kuptimi</th>
+      <th>Emri</th>
+      <th>Gjinia</th>
+      <th>Kuptimi</th>
       </tr>
  
       <% names.each do |n| %>
       <tr>
         <% if n.gender==1 %>
-            <td class="table-col-name male-name"><strong><%= n.name %></strong></td>
-            <td class="table-col-gender"><%= image_tag("male.png",:border => 0, :class => "gender-icon") %> </td> 
+            <td class="male-name"><strong><%= n.name %></strong></td>
+            <td><%= image_tag("male.png",:border => 0, :class => "gender-icon") %> </td> 
           <% else %>
-            <td class="table-col-name female-name"><strong><%= n.name %></strong></td>
-            <td class="table-col-gender"><%= image_tag("female.png",:border => 0, :class => "gender-icon") %> </td> 
+            <td class="female-name"><strong><%= n.name %></strong></td>
+            <td><%= image_tag("female.png",:border => 0, :class => "gender-icon") %> </td> 
          <% end %>   
-	       <td class="table-col-meaning"><%= n.meaning %></td> 
+	       <td><%= n.meaning %></td> 
       </tr>
   <% end %>
   </table>
 </div>
+
 

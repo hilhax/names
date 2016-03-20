@@ -27,6 +27,9 @@
                      { :include_blank => '-Gjitha-' },
                      { :class => 'form-control' } %>                                          
       </div>
+
+
+      
       <!-- <div class="span4 filter_field">
         <%= f.label :with_length, 'Kërkim me tekst:' %>
         <%= f.text_field(
@@ -39,7 +42,14 @@
           <i class="glyphicon glyphicon-repeat"></i>
         <% end %>
 
-      </div>					 
+      </div>			
+
+      <div style="float:left;">
+        <%= link_to reset_names_path do %>
+          <img class="logo_img" src='<%= image_path('emra_logo.png') %>'></a>
+        <% end %>
+      </div>
+		 
 
 <%= f.hidden_field :with_letter, :value=>'A', :id=>'hidden_letter' %>
 </div>
@@ -63,10 +73,16 @@
 
 <% end %>
 
-  <div class="col-md-3">
-    
-   
 
+
+  <div class="col-md-9">
+  <div class="names_div">
+    <%= render(
+      partial: 'names/list',
+      locals: { names: @names }
+    ) %>
+
+      <div class="right-column">
     <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Emrat e ditës</h3>
@@ -105,17 +121,11 @@
           <div class="stat_item">Emra mysliman për vajza = <strong><%= Name.total_female_muslim_names.to_s %></strong></div>
         </div>
     </div>
-
+  </div>
+  </div>
   </div>
 
-  <div class="col-md-9">
 
-    <%= render(
-      partial: 'names/list',
-      locals: { names: @names }
-    ) %>
-
-  </div>
 
 </div>
 
