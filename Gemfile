@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.8'
 
 gem 'rails', '4.1.4'
 gem 'sass-rails', '~> 4.0.0.rc1'    
@@ -15,7 +15,7 @@ gem 'jbuilder', '~> 2.0'
 # https://github.com/rumblelabs/asset_sync
 # gem 'asset_sync'
 
-gem 'pg'
+gem 'pg', '~> 0.18.4'
 
 
 #gem 'unicorn' # make sure you follow installation instructions for this gem

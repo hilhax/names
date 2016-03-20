@@ -1,8 +1,8 @@
 development:
   adapter: postgresql
-  database: names_db
+  database: names
   username: postgres # replace this with your own user name
-  password: postgres # replace this with your own password
+  password: postgrespass # replace this with your own password
   host: localhost
   encoding: UTF8
   pool: 5

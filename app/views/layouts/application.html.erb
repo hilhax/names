@@ -17,14 +17,14 @@
 
 <div class="col-md-3 logo">
     <%= link_to reset_names_path do %>
-  		<img src='<%= image_path('emra_logo.png') %>'></a>
+  		<img class="logo_img" src='<%= image_path('emra_logo.png') %>'></a>
   	<% end %>
 </div>
 
 <%= yield %>
 
 <div class="footer">
-	©2014 EMRA.info
+	©<%= Time.now.year %> EMRA.info
 </div>
 
 <a href="#" title="Shko në fillim" class="scrollToTop" />

@@ -13,7 +13,7 @@ class NamesController < ApplicationController
       with_gender: Gender.all,
       with_meaning: NameType.all,
       with_length: NameLength.all,
-      with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh','Gjitha germat']
+      with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh','Gjith']
     }
     
     #@names = Name.filterrific_find(@filterrific).page(params[:page])
@@ -38,6 +38,7 @@ class NamesController < ApplicationController
     redirect_to action: :index
   end 
 
+  #todo, in js
   def vote_up
     begin
       if cookies[:votes_number].nil?
@@ -74,7 +75,8 @@ class NamesController < ApplicationController
       puts "Error #{$!}"
     ensure   
       # TODO , fix
-      redirect_to action: :index
+      render 'index'
+
     end 
   end
 end

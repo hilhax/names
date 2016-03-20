@@ -39,5 +39,16 @@ jQuery(document).ready(function($) {
   //    $('#hidden_letter').val('');
   //});
 
+ 
+  $(".vote-icon").click(function(){  
+    
+    $.ajax({
+           type:'POST', 
+           url: '/names/vote_up/1',
+          data: $.param({ pagetime: {id: 1 }})         
+      });
+     
+  });
+
 });
 
