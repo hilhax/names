@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>bootstrap-sass/glyphicons-halflings-regular.woff at master · twbs/bootstrap-sass</title>
+  <title>bootstrap-sass/glyphicons-halflings-regular.woff2 at master · twbs/bootstrap-sass</title>
     <meta name="description" content="Official Sass port of Bootstrap 2 and 3. Contribute to twbs/bootstrap-sass development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/2918581?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="twbs/bootstrap-sass" /><meta property="og:url" content="https://github.com/twbs/bootstrap-sass" /><meta property="og:description" content="Official Sass port of Bootstrap 2 and 3. Contribute to twbs/bootstrap-sass development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDc1ODYyMzQyOjY1NGVmZGVkNjFlZDI0ZjhlYmYzZWFlODkyY2EyMmMyYWI3NTVmYzBjM2I0OTc1MzRhYWFlMjVmMmYyYzcxMmI=--001ec1cac7d5aa0bce906e4d1e1e8b995b4e25b6">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDc1ODYyMzQyOmRlNGIwOGFjMmIwNTBlZmNkYjM5NTdhNjU3ZjU4ZDM4NTE5MzIyNWRjNWFhZGFhZThhYTc2NWY2NTg3OWRjZGE=--5658cae037090aac6be8445165d8fb8ea50bc34f">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-    <meta name="request-id" content="306F:94A9:5E5322E:8CBE4AC:5DEADB86" data-pjax-transient>
+    <meta name="request-id" content="306F:94A9:5E5337F:8CBE6E2:5DEADB8B" data-pjax-transient>
 
 
 
@@ -54,7 +54,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="306F:94A9:5E5322E:8CBE4AC:5DEADB86" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="8048733358070701610" /><meta name="octolytics-actor-id" content="806191" /><meta name="octolytics-actor-login" content="hhx0" /><meta name="octolytics-actor-hash" content="841f1bcd439c86e2be19175a211719e45760b3493e0e838bd14def1e9f31bfd4" />
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="306F:94A9:5E5337F:8CBE6E2:5DEADB8B" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="8048733358070701610" /><meta name="octolytics-actor-id" content="806191" /><meta name="octolytics-actor-login" content="hhx0" /><meta name="octolytics-actor-hash" content="841f1bcd439c86e2be19175a211719e45760b3493e0e838bd14def1e9f31bfd4" />
 
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
@@ -75,7 +75,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="OTY3ZWNjZDRkNDg2MmNhOGQwNWIzMjZmMDg0ZGIzZjE3MWU2ODI3NjE2Zjk2MjU2MWYwNDZiODFkOTQxNjUyZnx7InJlbW90ZV9hZGRyZXNzIjoiNzcuMjkuMjQ2LjEzMSIsInJlcXVlc3RfaWQiOiIzMDZGOjk0QTk6NUU1MzIyRTo4Q0JFNEFDOjVERUFEQjg2IiwidGltZXN0YW1wIjoxNTc1NjcyNzE1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="NmI1YmI5NDNlYWY5Mjc2ZjA1YTNiY2VhOTBmYmJiZDY4NTIyNjY5N2VkMTVlYjcyN2I2YTBmYjg3ZGYzNmI4YXx7InJlbW90ZV9hZGRyZXNzIjoiNzcuMjkuMjQ2LjEzMSIsInJlcXVlc3RfaWQiOiIzMDZGOjk0QTk6NUU1MzM3Rjo4Q0JFNkUyOjVERUFEQjhCIiwidGltZXN0YW1wIjoxNTc1NjcyNzIwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="LAUNCH_PROJECT,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -91,7 +91,7 @@
   <meta name="octolytics-dimension-user_id" content="2918581" /><meta name="octolytics-dimension-user_login" content="twbs" /><meta name="octolytics-dimension-repository_id" content="2336578" /><meta name="octolytics-dimension-repository_nwo" content="twbs/bootstrap-sass" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="2336578" /><meta name="octolytics-dimension-repository_network_root_nwo" content="twbs/bootstrap-sass" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -111,7 +111,7 @@
 
   <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
 
-  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Rtel2rNE2jMbBACVN4eGQRJbvyICdATmhhFNdHW0FCN8l3ogIMvEV2GkWcigooa0FJaEaxcKrSTY0pIRKu8sJjTBdeCWnlAi0Dp130s4FN6YMm7Q3UPJkqhDK57GjzWm80err3pVh0UnPXEWGcjSbYZeMLcXh9DX5ShraCipRqA" charset="UTF-8"></script></head>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7pqqkJxxVErtM2gI45q_3YHiFa-x7eodqNLRWeTPseYygXmukVNRk_trmXVe-ztretXbE5SWZZIqK_5WtXU0HOJj68T7SlBa_8arG5UbZUhOb1B4wMY-qHAFDnjQIMb_5uPtAfnmMTHMf8dM15MbVLtZ6BGPHrp_UtAYbQ220o0" charset="UTF-8"></script></head>
 
   <body class="logged-in env-production page-responsive page-blob">
     
@@ -165,7 +165,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=NBQA4gcbbwXM11x3nUYlzTseunQjpnFSP5uEm7ETj+yq9UrZdUBQOwlSpdOCBp+9GdBySgb/0V1/a5iQcEElgQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=jJYRwdK3C4Mh1uEJEFz3KP6flRk278zsuH90YxL+VugSd1v6oOw0veRTGK0PHE1Y3FFdJxO2bOP4j2ho06z8hQ=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -318,7 +318,7 @@
       <img class="avatar" height="20" width="20" alt="@hhx0" src="https://avatars2.githubusercontent.com/u/806191?s=60&amp;v=4" />
       hhx0
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KsuHPy1hqKO+vp9lEEupfi98DAllG+3b8+9Z76FZwTpFKr7M7t7DR+82MHoB1XDxtGy7cTAfOpy3rbrNl/gilQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T7R1pMpK3psC+rstH0hHg6bh74gJ8ub1RqD3Hw4+nAAgVUxXCfW1f1NyFDIO1p4MPfFY8Fz2MbIC4hQ9OJ9/rw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -411,7 +411,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:2918581,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:806191,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;}}" data-hydro-click-hmac="a7f13f01f8ec17326b26dde957449daf8c5e1f4c56b35b88e0d47ec57b659360">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:2918581,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:806191,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;}}" data-hydro-click-hmac="dda83849340a3bbde8c6d3188b734bb0a0bf09096b6c151fdf87400206dc4a31">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -438,7 +438,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="OCBVqdLsek9tT82sS1wz/HAFACSRk+EgnlxLrYSnblq3QHjDlmlnGkuo9/hNFvs9Iz1tAahbVyJhDkjol0iZkg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="XxHGxBOGXWAd0DQ/YRYdeOCdRslZoGE1UkoQtjKgD8LQceuuVwNANTs3DmtnXNW5s6Ur7GBo1zetGBPzIU/4Cg==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -558,17 +558,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-12-07T00:21:55+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-12-07T00:22:00+01:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-12-07T00:51:55+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-12-07T00:52:00+01:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-12-07T03:51:55+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-12-07T03:52:00+01:00">
             in 4 hours
           </button>
         </li>
@@ -626,10 +626,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/hhx0/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}"
-    data-feature-preview-close-hmac="94ac3b646cd86a7c44fd9615b5a1f82660f77220479f20e1c9b16d485295e091"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}"
-    data-hydro-click-hmac="fff9d6a9fe99b1c72e5721c01e56f9703030f6f8665f78e485e608092ba65c1f"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}"
+    data-feature-preview-close-hmac="589bb3744fa0e0ccaf84c3dad3508b8e1988284ec1e470721a3e79bea36d2e48"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}"
+    data-hydro-click-hmac="a4c51041169bd6261034790035dc91b05d415435f68294d2acc81bdc986d9dea"
   >
     Feature preview
   </button>
@@ -638,7 +638,7 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DXea76TOrFbmRZwrSODAloo13ybxvHQKM2R8O4Lmfe9ilqMcZ3HHsrfNMzRZfhkZESVoXqS4o013Jp8ZtEeeQA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3fM+FTg2EQ7aMsbH7FB6EnYEnVoBMKd1paecbgC6EbiyEgfm+4l66ou6adj9zqOd7RQqIlQ0cDLh5X9MNhvyFw==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
@@ -678,10 +678,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="b67f3f4a90880839e91f172e9b616aecb5f786284140b53c2ff3db4c0f66a833" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="33d151d6305a70cc3b31b400aa1176111cb50e40156b82472a2b0c5e58ac0752" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="nuEjQoYSQWHtEpwT/wDMz2E3yWo2xlkxwazJruS7JQd0kV/W0BI5yTOB7xTtPfadRlHvwANqwRHK+EVBF6YXFw==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="ca870bb3499a678767f72d787c0fdb56111bfc5154b37eb764d4cb7bc9b1eef9">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="xXc9QLlEG7PTLgKWpJNQhTQWxf4KkxTub1Cy6JkPYI4vB0HU70RjGw29cZG2rmrXE3DjVD8/jM5kBD4HahJSng==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="3c4dcb18f318b6a0a5e98e458e1176155a8909040beea51583e876ca6e3e082f">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
 </button></form>  </div>
 </div>
@@ -734,10 +734,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tjJ+ZTjkPSYTD/Gjb/5pR2J1aTyDRtRhz/kAiCG0ckLalrVOSDbdEJoE1HtqlUodfOMxtev18MgPZuiqI2RSlg==" />      <input type="hidden" name="repository_id" value="2336578">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="k6kbik2Rw94dIGspU35/fyj7utwVrnjV//7SEZOmPUX/DdChPUMj6JQrTvFWFVwlNm3iVX0dXHw/YTozkXYdkQ==" />      <input type="hidden" name="repository_id" value="2336578">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="6e8de1e0889d4298f64b8d896c836bd3f7cbc9bcf4a6a6fc15bd4c2b2aad5c08" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="493227cb07708fc9c289b3339b0762ea90441d29b0d20d522df554bd08842fd5" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -808,9 +808,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/twbs/bootstrap-sass/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LrzQKtRMsX5Atwqdl8ptQ3arRvO7Cvga8TKFz9NOP6U0yhwj3gAJdAv26D+fFJZtqx4gMPNxhgPDaTBvDzFA0w==" />
+    <form class="starred js-social-form" action="/twbs/bootstrap-sass/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JwEmdy1h4IjSZey5itYFimo1nViJnMFhopkVvMcVOGk9d+p+Jy1YgpkkDhuCCP6kt4D7m8Hnv3iQwqAcG2pHHw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar twbs/bootstrap-sass" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="60d3a2daa2213079b878a427eb130f7378daf22a89b9110969ed7da65c2a48d2" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar twbs/bootstrap-sass" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="8b53154e02b8cba05c49280656633cc6d72f5898c1c8b49efd848d4f20c5c5d0" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/twbs/bootstrap-sass/stargazers"
@@ -818,9 +818,9 @@
            12.8k
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/twbs/bootstrap-sass/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IdhnM8AOgA+/gudnEKzJWMqpUHiEACd1kodHz73EMC/apONrU2P1/E8lqqHr155YsALj4wR5hri0ugfLFaz6Zg==" />
+    <form class="unstarred js-social-form" action="/twbs/bootstrap-sass/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4laGvFeYuMnWD7klYLgCDd/1xyOkJ7RZamFX51p18QIZKgLkxPXNOiao9OObw1UNpV50uCReFZRMXBfj8h07Sw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star twbs/bootstrap-sass" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="e735fb0ffc500ced44b3eacd18b7c2c85552826adbe89f1b312169ced45c9e43" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star twbs/bootstrap-sass" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="4aefc4a197e8a00e60764f76b6439ede73348924b51b03acc26037ae16ad8615" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-label="star" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/twbs/bootstrap-sass/stargazers"
@@ -832,8 +832,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/twbs/bootstrap-sass/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+PvyfVmVEMYh9Okw/9X8PXUkcsksB2jilGfHyzWdLW1I/eyhRIdRnCV+iayt844vQgK7oaH9mZbG1ewKlPLYig==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5322E:8CBE4AC:5DEADB86&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="dcf01d38e5a568c9bd2baaa3d38f5f4ebbb301d39a81fc12f0edd3d5435eb619" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of twbs/bootstrap-sass to your account" aria-label="Fork your own copy of twbs/bootstrap-sass to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/twbs/bootstrap-sass/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/KjqSHvSvb1O9suVKxgeryIAaZJe8AiUVGYm+JIsyoBMrvSUZsD850p8qwl5Pmy9FSag+tMK+eAG1A05M0M/Zw==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:2336578,&quot;client_id&quot;:&quot;1873991768.1537482282&quot;,&quot;originating_request_id&quot;:&quot;306F:94A9:5E5337F:8CBE6E2:5DEADB8B&quot;,&quot;originating_url&quot;:&quot;https://github.com/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2&quot;,&quot;referrer&quot;:&quot;https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap&quot;,&quot;user_id&quot;:806191}}" data-hydro-click-hmac="5e6ed7040692d5b764d08d6091ee558b233c001719bcdef06566d2a0c4913bf6" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of twbs/bootstrap-sass to your account" aria-label="Fork your own copy of twbs/bootstrap-sass to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/twbs/bootstrap-sass/network/members" class="social-count"
@@ -968,9 +968,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/twbs/bootstrap-sass/blob/b34765d8a6aa775816c59012b2d6b30c4c66a8e9/assets/fonts/bootstrap/glyphicons-halflings-regular.woff">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/twbs/bootstrap-sass/blob/b34765d8a6aa775816c59012b2d6b30c4c66a8e9/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:bdfa5cfc3ef1c4257ae58b334d0d0664 -->
+    <!-- blob contrib key: blob_contributors:v21:3e3e7992fb6424e3543f9fc9b01ffd9b -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
@@ -984,7 +984,7 @@
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/twbs/bootstrap-sass/ref-list/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/twbs/bootstrap-sass/ref-list/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -998,13 +998,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="assets/fonts/bootstrap/glyphicons-halflings-regular.woff" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass"><span>bootstrap-sass</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass/tree/master/assets"><span>assets</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass/tree/master/assets/fonts"><span>fonts</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap"><span>bootstrap</span></a></span><span class="separator">/</span><strong class="final-path">glyphicons-halflings-regular.woff</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass"><span>bootstrap-sass</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass/tree/master/assets"><span>assets</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass/tree/master/assets/fonts"><span>fonts</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap"><span>bootstrap</span></a></span><span class="separator">/</span><strong class="final-path">glyphicons-halflings-regular.woff2</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1014,7 +1014,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="assets/fonts/bootstrap/glyphicons-halflings-regular.woff" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1031,12 +1031,12 @@
           <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/glebm/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/glebm"><img class="avatar" src="https://avatars2.githubusercontent.com/u/216339?s=40&amp;v=4" width="20" height="20" alt="@glebm" /></a>
           <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/glebm/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/glebm">glebm</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="rake convert" class="link-gray" href="/twbs/bootstrap-sass/commit/64211e6c02d8124962d4ad6e7820cebeef2ecefb">rake convert</a>
+              <a data-pjax="true" title="rake convert" class="link-gray" href="/twbs/bootstrap-sass/commit/e31d2e71771443b2e1706e2a685ac6f5c1c5fd10">rake convert</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/twbs/bootstrap-sass/commit/64211e6c02d8124962d4ad6e7820cebeef2ecefb" data-pjax>64211e6</a>
-          <relative-time datetime="2015-01-17T22:49:14Z" class="no-wrap">Jan 17, 2015</relative-time>
+          <a class="pr-2 text-mono link-gray" href="/twbs/bootstrap-sass/commit/e31d2e71771443b2e1706e2a685ac6f5c1c5fd10" data-pjax>e31d2e7</a>
+          <relative-time datetime="2015-01-17T22:49:15Z" class="no-wrap">Jan 17, 2015</relative-time>
         </span>
       </div>
 
@@ -1048,7 +1048,7 @@
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/twbs/bootstrap-sass/contributors-list/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" preload>
+          src="/twbs/bootstrap-sass/contributors-list/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -1072,26 +1072,26 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-    22.9 KB
+    17.6 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff">Download</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/twbs/bootstrap-sass/commits/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2">Download</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/twbs/bootstrap-sass/commits/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2">History</a>
     </div>
 
 
     <div>
             <a class="btn-octicon tooltipped tooltipped-nw hide-sm"
-               href="github-windows://openRepo/https://github.com/twbs/bootstrap-sass?branch=master&amp;filepath=assets%2Ffonts%2Fbootstrap%2Fglyphicons-halflings-regular.woff"
+               href="github-windows://openRepo/https://github.com/twbs/bootstrap-sass?branch=master&amp;filepath=assets%2Ffonts%2Fbootstrap%2Fglyphicons-halflings-regular.woff2"
                aria-label="Open this file in GitHub Desktop"
                data-ga-click="Repository, open with desktop, type:windows">
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/twbs/bootstrap-sass/delete/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Y5WzbsFHOsVftVbLL9N6I/Wv6a3tk7jFq/QPkA/yebV3ctFd6a9Y+XQZquRaAOfn1++ewp2OXzdaAX7pruqOcg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/twbs/bootstrap-sass/delete/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LbBN22RK9yHXUdeJwFyo6kB5xnej90KjCImJ9ociFGsrjuVml8r7TjEvgwBHGGkvZ29crqstBT0P7o8BOrNRpw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1107,7 +1107,7 @@
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-text ">
       <div class="text-center p-3">
-          <a href="/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff?raw=true">View raw</a>
+          <a href="/twbs/bootstrap-sass/blob/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2?raw=true">View raw</a>
       </div>
   </div>
 
