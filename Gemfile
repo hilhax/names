@@ -1,14 +1,14 @@
 source 'http://rubygems.org'
 
-ruby '2.1.8'
+ruby '2.3.0'
 
-gem 'rails', '4.1.4'
-gem 'sass-rails', '~> 4.0.0.rc1'    
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'rails', '5.2.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'    
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder'
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
@@ -24,13 +24,16 @@ gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 gem 'rails_12factor'
 
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data'
 
 group :doc do
   gem 'sdoc', require: false
 end
-gem 'filterrific', '1.3.1'
+gem 'filterrific'
 gem 'kaminari', '~> 0.16.1'
 gem 'kaminari-bootstrap', '~> 3.0.1'
 gem 'jquery-turbolinks'
-gem 'twitter-bootstrap-rails'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+gem 'execjs'

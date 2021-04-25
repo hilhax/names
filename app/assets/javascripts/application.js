@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-//= require filterrific-jquery
+//= require filterrific/filterrific-jquery
 //= require turbolinks
 //= require bootstrap.min
 //= require_tree .

@@ -15,25 +15,32 @@
  *= require_self
  */
 
-
-
+p {
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 1.3em;
+    color: #333;
+    font-weight: 400;
+    line-height: 1.625em;
+    letter-spacing: -0.3px;
+}
 
 .logo {
 	margin-top: 14px;
 }
 .logo_img {
 	margin-left: 8px;
+	cursor: pointer;
 }
 .span1 {
-	width: 91px;
+	width: auto;
 }
 
 .span2 {
-	width: 131px;
+	width: auto;
 }
 
 .span3 {
-	width: 10px;
+	width: auto;
 }
 
 .span4 {
@@ -57,11 +64,10 @@
 .filter_btn
 {
 	display: inline-block;
-	margin-top:25px;
-	margin-left: 100px;
+	margin-top:25px;	
 }
 #begins_with {
-	margin-bottom: 10px;
+	margin-bottom: 14px;
 }
 #letters {
 	margin-left:10px;
@@ -176,11 +182,11 @@ label {
 
 
 .right-column {
-	display: block;
-	float:left;
+	display: inline-block;
+	float:right;
 	margin-left:49px;
 	margin-top:22px;
-	width: 29% !important;
+	
 }
 
 .col-md-9 {
@@ -199,3 +205,111 @@ label {
 .top-names-date {
 	color:silver;
 }
+
+.divRightGrowth {
+	margin-top:30px;
+	opacity: 0.7;
+}
+
+.divRightGrowth:hover {
+	opacity: 1;
+}
+
+.contentGrowth {
+	float: left;
+	display: block;
+	text-align: justify;
+	width:110% !important;
+	
+}
+
+.first-par::first-letter {
+	font-size: 200%;
+	color: #8A2BE2;
+}
+
+.linkBackHome {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.your-baby__dev__descr-c {
+    background-color: #fbf5e9;
+    padding: 0 20px 0 20px;
+}
+
+.your-baby__dev__descr-c__items__item:not(:last-child) {
+    border-bottom: 1px solid #e2e8e9;
+}
+
+.your-baby__dev__descr-c__items__item {
+    padding: 25px 0 25px 0;
+}
+
+.your-baby__dev__descr-c__items__item__body-c__body {
+    font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1.625em;
+    letter-spacing: -.3px;
+}
+
+.your-baby__dev__descr-c__headline {
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    font-size: 1.156rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.2rem;
+    letter-spacing: -0.2px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.your-baby__dev__descr-c__items__item__img-c__img {
+    width: 60px !important;
+    height: 60px !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+	height: 100px !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.your-baby__dev__descr-c__items__item__img-c {
+    float: left;
+    margin-right: 13px;
+}
+
+.your-baby__dev__descr-c__items__item__body-c__headline {
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.38rem;
+    letter-spacing: -.3px;
+	margin-bottom: 8px;
+}
+
+.your-baby__dev__descr-c__items__item:not(:last-child) {
+    border-bottom: 1px solid #e2e8e9;
+}
+.your-baby__dev__descr-c__items__item {
+    padding: 25px 0 25px 0;
+}
+
+@media all and (min-width:100px) and (max-width: 1024px) {
+  /* put your css styles in here */
+
+  .contentGrowth {
+	float: left;
+	display: block;
+	text-align: justify;
+	width:60% !important;
+  }
+}
+

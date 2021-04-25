@@ -8,6 +8,8 @@ jQuery(document).ready(function($) {
     ".letter",
     Filterrific.submitFilterForm
   );
+  
+  $('#btnReset,.logo_img').on('click', function() { document.location.href="/"; });  
 
   $('.letter').click(function (e) {
 	  	e.preventDefault(); // Prevent link from following its href

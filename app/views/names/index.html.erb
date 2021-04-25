@@ -3,7 +3,7 @@
   <div class="col-md-9">
   <div class='well well-lg'>
 
-    <%= form_for @filterrific,:html => { :class => "form-inline"} do |f| %>
+    <%= form_for_filterrific @filterrific do |f| %>
     
     <div class="row">
       <div class="span1 filter_field">
@@ -38,16 +38,13 @@
                     ) %>
       </div>    -->
       <div class="span5 filter_btn">
-        <%= link_to reset_names_path, class: "btn btn-primary", title: "Kthe gjendjen fillestare" do %>
-          <i class="glyphicon glyphicon-repeat"></i>
-        <% end %>
+       		
+		<a class="btn btn-primary" id="btnReset" title="Kthe gjendjen fillestare" href=""><i class="glyphicon glyphicon-repeat"></i></a>
 
       </div>			
 
       <div style="float:left;">
-        <%= link_to reset_names_path do %>
           <img class="logo_img" src='<%= image_path('emra_logo.png') %>'></a>
-        <% end %>
       </div>
 		 
 
@@ -59,11 +56,11 @@
     </div>
   <% @filterrific.select_options[:with_letter].each do |l| %>
       <% if l.to_s=='A' %>
-        <%= link_to l,'', :class=>'btn-warning btn-sm letter' %>  
+        <%= link_to l,'', :class=>'btn-warning btn-lg letter' %>  
       <% else %>
-        <%= link_to l,'', :class=>'btn-primary btn-sm letter' %>  
+        <%= link_to l,'', :class=>'btn-primary btn-lg letter' %>  
       <% end %>    	
-      <% if l.to_s=='N' %>
+      <% if l.to_s=='H' or l.to_s=='Rr' %>
           <br/><br/>
       <% end %>
   <% end %>
@@ -76,56 +73,21 @@
 
 
   <div class="col-md-9">
-  <div class="names_div">
+  <div >
     <%= render(
       partial: 'names/list',
       locals: { names: @names }
     ) %>
 
-      <div class="right-column">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Emrat e ditës <span class="top-names-date"> - <%= DateTime.now.strftime("%d.%m.%Y") %></span></h3>
-        </div>
-        <div class="panel-body">
-          <div class="random">
-            <div>
-              <span class="random_name male-name"><%= Name.random_male.name %></span>
-            </div>
-            <div>
-              <span class="random_meaning"><%= Name.random_male.meaning %></span>
-            </div>
-          </div>          
-          <div class="random_f">
-            <div>
-              <span class="random_name female-name"><%= Name.random_female.name %></span>
-            </div>
-            <div>
-              <span class="random_meaning"><%= Name.random_female.meaning %></span>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    
-
-    <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Statistikë</h3>
-        </div>
-        <div class="panel-body stats">
-          <div class="stat_item">Gjithsejt emra shqiptarë = <strong><%= Name.total_names.to_s %></strong></div>
-          <div class="stat_item">Emra shqiptarë për djem = <strong><%= Name.total_male_names.to_s %></strong></div>
-          <div class="stat_item">Emra shqiptarë për vajza = <strong><%= Name.total_female_names.to_s %></strong></div>
-          <div class="stat_item">Gjithsejt emra mysliman = <strong><%= Name.total_muslim_names.to_s %></strong></div>
-          <div class="stat_item">Emra mysliman për djem = <strong><%= Name.total_male_muslim_names.to_s %></strong></div>
-          <div class="stat_item">Emra mysliman për vajza = <strong><%= Name.total_female_muslim_names.to_s %></strong></div>
-        </div>
-    </div>
-  </div>
+   
   </div>
   </div>
 
+  <div class="right-column">
+     <%= render(
+      partial: 'shared/growthLinks'      
+    ) %>   
+  </div>
 
 
 </div>

@@ -6,8 +6,8 @@ class Name < ActiveRecord::Base
 	belongs_to :name_gender, class_name: "Gender", foreign_key: "gender"
 
 	filterrific(
-	    default_settings: { :with_letter=>'A', :with_meaning=>1},
-	    filter_names: [
+	    default_filter_params: { :with_letter=>'A', :with_meaning=>1},
+	    available_filters: [
 	      :sorted_by,
 	      :with_gender,
 	      :with_meaning,
@@ -15,6 +15,7 @@ class Name < ActiveRecord::Base
 		  :search_query,
 		  :with_letter
 	    ]
+		
   	)
 	
 	scope :with_gender, lambda { |genders|

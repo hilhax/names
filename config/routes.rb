@@ -13,6 +13,10 @@ Rails.application.routes.draw do
     match 'vote_up/:id' => 'names#vote_up', on: :collection, via: [:get, :post], as: :vote_up
   end
 
+  resources :foshnja_e_posalindur, :path => '/foshnja-e-posalindur'
+
+  resources :foshnja2javeshe, :path => '/foshnja-2-javeshe'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

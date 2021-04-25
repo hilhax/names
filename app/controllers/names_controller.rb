@@ -4,19 +4,23 @@ class NamesController < ApplicationController
     
     session[:filterrific_names] = nil
 
-    @filterrific = Filterrific.new(
+    @Name = @filterrific = initialize_filterrific(
       Name,
-      params[:filterrific] || session[:filterrific_names]
-    )
-  
+      params[:filterrific],     
+      :default_filter_params => {},
+	  :persistence_id => false,
+      :available_filters => [:sorted_by,:with_gender,:with_meaning,:with_length,:search_query,:with_letter],
+	  :sanitize_params => true,
+    ) || return
+	
+	  
     @filterrific.select_options = {    
       with_gender: Gender.all,
       with_meaning: NameType.all,
       with_length: NameLength.all,
-      with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh','Gjith']
+      with_letter: ['A','B','C','Ç','D','Dh','E','Ë','F','G','Gj','H','I','J','K','L','Ll','M','N','Nj','O','P','Q','R','Rr','S','Sh','T','Th','U','V','X','Xh','Y','Z','Zh','Gjth']
     }
-    
-    #@names = Name.filterrific_find(@filterrific).page(params[:page])
+	   
     @names = Name.filterrific_find(@filterrific).order("name asc")
     @number_of_results = @names.count
     session[:filterrific_names] = @filterrific.to_hash
@@ -33,7 +37,7 @@ class NamesController < ApplicationController
 
   def reset
     # Clear session persistence
-    session[:filterrific_names] = nil
+    #session[:filterrific_names] = nil
     # Redirect back to the index action for default filter settings.
     redirect_to action: :index
   end 
