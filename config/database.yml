@@ -1,9 +1,9 @@
 development:
   adapter: postgresql
-  database: names
-  username: postgres # replace this with your own user name
-  password: postgres # replace this with your own password
-  host: localhost
+  database: dd485ecbnoovf7
+  username: axdlbiqzsksozy # replace this with your own user name
+  password: 330af06d69ae609b290c8216d595425746389f25a1740ba3247839d5c6bce211 # replace this with your own password
+  host: ec2-52-23-87-65.compute-1.amazonaws.com
   encoding: UTF8
   pool: 5
   timeout: 5000
