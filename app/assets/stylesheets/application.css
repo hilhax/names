@@ -91,7 +91,7 @@ label {
 	font-style: italic;
 }
 .results_info {
-	font-size: 11px;
+	font-size: 14px;
 	font-style: italic;
 	margin-bottom: 10px;
 }
@@ -165,11 +165,17 @@ label {
 
 
 .male-name {
+	font-size: 20px !important;
 	color: #5181C4;
 }
 
 .female-name {
+	font-size: 20px !important;
 	color: #D121C2;
+}
+
+.meaning {
+	font-size: 20px !important;
 }
 
 .vote-icon {
