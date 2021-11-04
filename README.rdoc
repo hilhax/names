@@ -1,6 +1,8 @@
 == README
 
 Ruby 2.7.4
+
 Rails 5.2.0
+
 PostgreSQL 9.6
 
