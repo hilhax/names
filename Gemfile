@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 ruby '2.7.4'
 
 gem 'rails', '5.2.0'
-gem 'sprockets', '3.6.3'
+gem 'sprockets', '3.7.2'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'

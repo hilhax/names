@@ -164,7 +164,7 @@ GEM
       tilt
     sdoc (2.2.0)
       rdoc (>= 5.0)
-    sprockets (3.6.3)
+    sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.2.2)
@@ -215,7 +215,7 @@ DEPENDENCIES
   rails_log_stdout!
   sass-rails
   sdoc
-  sprockets (= 3.6.3)
+  sprockets (= 3.7.2)
   therubyracer
   turbolinks
   twitter-bootstrap-rails
